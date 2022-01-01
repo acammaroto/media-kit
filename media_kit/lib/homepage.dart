@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:media_kit/aboutme.dart';
 import 'package:media_kit/headline.dart';
+import 'package:media_kit/sponsor.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
@@ -27,6 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       return Column(
                         children: const [
                           Headline(),
+                          Sponsor(),
                         ],
                       );
                     },
