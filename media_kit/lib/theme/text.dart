@@ -38,10 +38,10 @@ TextStyle h2Black = TextStyle(
 );
 
 TextStyle h3White = const TextStyle(
-  color: Colors.white,
-  fontSize: 31,
-  fontWeight: FontWeight.bold,
-);
+    color: Colors.white,
+    fontSize: 31,
+    fontWeight: FontWeight.bold,
+    fontFamily: 'Avenir');
 
 TextStyle textRegularWhite = const TextStyle(
   color: Colors.white,

@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:media_kit/theme/colors.dart';
 import 'package:media_kit/theme/text.dart';
@@ -14,16 +15,19 @@ class AboutMe extends StatelessWidget {
       ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           ShaderMask(
             blendMode: BlendMode.modulate,
             shaderCallback: (size) => gradient.createShader(
               Rect.fromLTWH(0, 0, size.width, size.height),
             ),
-            child: Text(
-              "About Me",
-              style: h2White,
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
+                "About Me",
+                style: h2White,
+              ),
             ),
           ),
           const SizedBox(height: 17),
@@ -32,6 +36,26 @@ class AboutMe extends StatelessWidget {
             style: textRegularWhite,
             textAlign: TextAlign.justify,
           ),
+          const SizedBox(height: 29),
+          CupertinoButton(
+              child: Container(
+                width: 559,
+                height: 84,
+                decoration: BoxDecoration(
+                  gradient: gradient,
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(25),
+                ),
+                child: Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    'Let\'s make something awesome!',
+                    style: h3White,
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ),
+              onPressed: () {}),
         ],
       ),
     );

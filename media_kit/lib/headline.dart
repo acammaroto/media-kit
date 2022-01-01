@@ -17,7 +17,9 @@ class Headline extends StatelessWidget {
           const Expanded(
             flex: 1,
             child: Image(
-                image: AssetImage('images/profile.png'), fit: BoxFit.fill),
+                height: 900,
+                image: AssetImage('images/profile.png'),
+                fit: BoxFit.cover),
           ),
           const SizedBox(
             width: 25,
