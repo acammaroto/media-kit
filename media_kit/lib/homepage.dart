@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:media_kit/aboutme.dart';
+import 'package:media_kit/analytics.dart';
 import 'package:media_kit/headline.dart';
 import 'package:media_kit/sponsor.dart';
 
@@ -26,10 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   delegate: SliverChildBuilderDelegate(
                     (BuildContext context, int index) {
                       return Column(
-                        children: const [
-                          Headline(),
-                          Sponsor(),
-                        ],
+                        children: const [Headline(), Sponsor(), Analytics()],
                       );
                     },
                     childCount: 1,

@@ -20,10 +20,10 @@ TextStyle h1White = const TextStyle(
 );
 
 TextStyle h1Black = TextStyle(
-  color: darkBlue,
-  fontSize: 57,
-  fontWeight: FontWeight.bold,
-);
+    color: darkBlue,
+    fontSize: 57,
+    fontWeight: FontWeight.bold,
+    fontFamily: 'Avenir');
 
 TextStyle h2White = const TextStyle(
     color: Colors.white,
@@ -34,7 +34,8 @@ TextStyle h2White = const TextStyle(
 TextStyle h2Black = TextStyle(
   color: darkBlue,
   fontSize: 36,
-  fontWeight: FontWeight.bold,
+  fontWeight: FontWeight.w800,
+  fontFamily: 'Metropolis',
 );
 
 TextStyle h3White = const TextStyle(
@@ -50,9 +51,10 @@ TextStyle textRegularWhite = const TextStyle(
 );
 
 TextStyle textRegularDarkBlue = TextStyle(
-  color: darkBlue,
-  fontSize: 26,
-);
+    color: darkBlue,
+    fontSize: 26,
+    fontWeight: FontWeight.w500,
+    fontFamily: 'Metropolis');
 
 TextStyle textButtonDark = TextStyle(
   color: darkBlue,

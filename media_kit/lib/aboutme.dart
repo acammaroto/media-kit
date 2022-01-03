@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:mailto/mailto.dart';
 import 'package:media_kit/theme/colors.dart';
 import 'package:media_kit/theme/text.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class AboutMe extends StatelessWidget {
   const AboutMe({Key? key}) : super(key: key);
@@ -55,7 +57,13 @@ class AboutMe extends StatelessWidget {
                   ),
                 ),
               ),
-              onPressed: () {}),
+              onPressed: () async {
+                final mailtoLink = Mailto(
+                  to: ['hi@angelocammaroto.com'],
+                  subject: 'Collabs',
+                );
+                await launch('$mailtoLink');
+              }),
         ],
       ),
     );
