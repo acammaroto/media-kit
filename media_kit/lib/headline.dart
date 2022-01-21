@@ -17,7 +17,7 @@ class Headline extends StatelessWidget {
           const Expanded(
             flex: 1,
             child: Image(
-                height: 900,
+                height: 790,
                 image: AssetImage('images/profile.png'),
                 fit: BoxFit.cover),
           ),
@@ -43,7 +43,9 @@ class Headline extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 100),
+                    padding: const EdgeInsets.only(
+                      left: 100,
+                    ),
                     child: Text(
                       "Creator, Developer",
                       style: h2White,
@@ -70,7 +72,7 @@ class Headline extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.center,
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
-                                Text("31.3 k", style: textButtonDark),
+                                Text("45 k", style: textButtonDark),
                                 Text('follower', style: subtitleButtonDark),
                               ],
                             ),
@@ -96,7 +98,7 @@ class Headline extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.center,
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
-                                Text("215", style: textButtonDark),
+                                Text("233", style: textButtonDark),
                                 Text('subscribers', style: subtitleButtonDark),
                               ],
                             ),

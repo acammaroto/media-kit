@@ -34,7 +34,7 @@ class AboutMe extends StatelessWidget {
           ),
           const SizedBox(height: 17),
           Text(
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In laoreet mi sem, nec imperdiet lacus aliquet et.\n\nIn hac habitasse platea dictumst. Curabitur rutrum est ac purus porttitor egestas. Etiam sed libero condimentum, mollis libero et, consectetur mauris. Suspendisse facilisis vel ante non consectetur.\n\nUt sit amet sem ac velit laoreet bibendum eget euismod neque. Ut aliquet fringilla scelerisque. Sed sagittis turpis nisl. Nunc tristique, neque quis lobortis dictum, nisl ex condimentum sem, eget ultrices magna diam nec velit.",
+            "Here’s to all the developers and those who want to become one. My main purpose is to teach and inspire people to use their creativity and to develop their skills in order to became a better developer living a lifestyle they’ve always desired. For themselves, their friend and ultimately the whole world to see.\n\nIn 2022 successful influencer marketing means more than just posting random pictures and videos, holding a product in the camera with a fake smile. It should naturally align with the influencers values and their vision, ultimately connecting with their audience on a very personal level.\n\nIf you feel your brand aligns with my value and my style, whether it Is on YouTube or Instagram feel free to reach out and we’ll create something awesome.",
             style: textRegularWhite,
             textAlign: TextAlign.justify,
           ),

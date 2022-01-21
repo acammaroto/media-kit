@@ -46,7 +46,7 @@ TextStyle h3White = const TextStyle(
 
 TextStyle textRegularWhite = const TextStyle(
   color: Colors.white,
-  fontSize: 26,
+  fontSize: 20,
   fontFamily: 'Metropolis',
 );
 
