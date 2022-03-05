@@ -72,7 +72,7 @@ class Headline extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.center,
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
-                                Text("45 k", style: textButtonDark),
+                                Text("67 k", style: textButtonDark),
                                 Text('follower', style: subtitleButtonDark),
                               ],
                             ),
@@ -98,7 +98,7 @@ class Headline extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.center,
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
-                                Text("233", style: textButtonDark),
+                                Text("306", style: textButtonDark),
                                 Text('subscribers', style: subtitleButtonDark),
                               ],
                             ),

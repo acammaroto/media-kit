@@ -47,7 +47,7 @@ class Analytics extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Text("45 k", style: h2Black),
+                            Text("67 k", style: h2Black),
                             Text('follower', style: textRegularDarkBlue),
                           ],
                         ),
@@ -81,7 +81,7 @@ class Analytics extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Text("65.5 k", style: h2Black),
+                            Text("497 k", style: h2Black),
                             Text('avg. reach', style: textRegularDarkBlue),
                           ],
                         ),
@@ -119,7 +119,7 @@ class Analytics extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Text("5,5 %", style: h2Black),
+                            Text("3,00 %", style: h2Black),
                             Text('eng. rate', style: textRegularDarkBlue),
                           ],
                         ),
@@ -169,7 +169,7 @@ class Analytics extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Text("233", style: h2Black),
+                          Text("306", style: h2Black),
                           Text('subscribers', style: textRegularDarkBlue),
                         ],
                       ),
@@ -203,7 +203,7 @@ class Analytics extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Text("194", style: h2Black),
+                          Text("441", style: h2Black),
                           Text('monthly views', style: textRegularDarkBlue),
                         ],
                       ),
@@ -241,7 +241,7 @@ class Analytics extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Text("1.7 k", style: h2Black),
+                          Text("3 k", style: h2Black),
                           Text('impression', style: textRegularDarkBlue),
                         ],
                       ),

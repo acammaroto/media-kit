@@ -8,7 +8,7 @@ class Sponsor extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.only(top: 30),
-      height: 388,
+      //height: 388,
       color: grey,
       child: Column(
         children: [
@@ -50,21 +50,41 @@ class Sponsor extends StatelessWidget {
               ),
               Image(
                 image: AssetImage('images/grid.png'),
-              )
+              ),
+              Image(
+                image: AssetImage('images/bullstrap.png'),
+              ),
             ],
           ),
-          const SizedBox(height: 50),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: const [
               Image(
-                image: AssetImage('images/bullstrap.png'),
+                image: AssetImage('images/whoosh.png'),
               ),
               Image(
-                image: AssetImage('images/whoosh.png'),
+                image: AssetImage('images/Autonomous.png'),
+              ),
+              Image(
+                image: AssetImage('images/satechi.png'),
+                width: 300,
               ),
             ],
           ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: const [
+              Image(
+                image: AssetImage('images/ergotron.png'),
+                width: 300,
+              ),
+              Image(
+                image: AssetImage('images/fifine.webp'),
+                width: 300,
+              ),
+            ],
+          ),
+          const SizedBox(height: 50),
         ],
       ),
     );
